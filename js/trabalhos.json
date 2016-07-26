@@ -1,0 +1,75 @@
+[
+        {   
+            "ico":"images/ico-3DMAX.png",
+            "name":"Curso 3D Studio Max",
+            "time":"Setembro de 2008",
+            "place":"Senac, São Paulo",
+            "xposition":"1px",
+            "yposition":"71px"
+        },
+        {
+            "ico":"images/ico-afterEffects.png",
+            "name":"Curso After Effects",
+            "time":"Janeiro de 2009",
+            "place":"Impacta, São Paulo",
+            "xposition":"39px",
+            "yposition":"218px"
+        },
+        {   
+            "ico":"images/ico-tecnico.png",
+            "name":"Técnico em Informática",
+            "time":"Setembro de 2009",
+            "place":"Senac, São Paulo",
+            "xposition":"189px",
+            "yposition":"71px"
+        },
+        {
+            "ico":"images/ico-ICS.png",
+            "name":"Certificação ICS Ilustrador Digital",
+            "time":"Junho de 2009",
+            "place":"Impacta, São Paulo",
+            "xposition":"212px",
+            "yposition":"218px"
+        },
+        {
+            "ico":"images/ico-foster.png",
+            "name":"Agência Foster .ltda",
+            "time":"Setembro de 2008 - Junho de 2011",
+            "place":"São Paulo",
+            "xposition":"382px",
+            "yposition":"218px"
+        },
+        {   
+            "ico":"images/ico-UNIP.png",
+            "name":"Graduação em Computação Gráfica",
+            "time":"Agosto de 2011",
+            "place":"UNIP, São Paulo",
+            "xposition":"397px",
+            "yposition":"71px"
+        },
+        {
+            "ico":"images/ico-domore.png",
+            "name":"DoMore! Solutions .ltda",
+            "time":"Agosto de 2011 - Março de 2014",
+            "place":"São Paulo",
+            "xposition":"606px",
+            "yposition":"218px"
+        },
+        {
+            "ico":"images/ico-ilac.png",
+            "name":"Ilac Vancouver",
+            "time":"Abril de 2014 - Setembro de 2014",
+            "place":"Vancouver, Canadá",
+            "xposition":"591px",
+            "yposition":"71px"
+        },
+        {
+            "ico":"images/ico-modal.png",
+            "name":"Banco Modal",
+            "time":"Abril de 2015 - Hoje",
+            "place":"São Paulo",
+            "xposition":"807px",
+            "yposition":"71px"
+        }
+        
+]

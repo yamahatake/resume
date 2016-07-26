@@ -1,0 +1,42 @@
+[
+        {
+            "name":"Photoshop",
+            "porcentage":"100%"
+        },
+        {
+            "name":"Illustrator",
+            "porcentage":"100%"
+        },
+        {
+            "name":"HTML5",
+            "porcentage":"85%"
+        },
+        {
+            "name":"CSS3",
+            "porcentage":"80%"
+        },
+        {
+            "name":"Javascript",
+            "porcentage":"50%"
+        },
+        {
+            "name":"JQuery",
+            "porcentage":"85%"
+        },
+        {
+            "name":"AngularJS",
+            "porcentage":"40%"
+        },
+        {
+            "name":"Sharepoint",
+            "porcentage":"80%"
+        },
+        {
+            "name":"After Effects",
+            "porcentage":"95%"
+        },
+        {
+            "name":"JSON",
+            "porcentage":"75%"
+        }
+]
