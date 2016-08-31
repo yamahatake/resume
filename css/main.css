@@ -1,0 +1,186 @@
+@import url(http://fonts.googleapis.com/css?family=Abel);
+
+/* ----------------------------------------- RESET  ----------------------------------------- */
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+::-moz-selection { background: #b3d4fc; text-shadow: none;}
+::selection { background: #b3d4fc; text-shadow: none;}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+audio,canvas,iframe,img,svg,video { vertical-align: middle;}
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+textarea { resize: vertical;}
+figure{margin: 0;}
+
+/* ----------------------------------------- GENERAL  ----------------------------------------- */
+body{
+    background: transparent url("../images/bg-body.jpg") repeat right top;
+    color: #797979;
+    font-family: Cambria;
+}
+
+h1{
+    color: #1f2128;
+    font-family: 'Abel', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+}
+
+h2{
+    color: #1f2128;
+    font-family: 'Abel', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+}
+
+p{ margin:0; line-height: 20px;}
+
+ul{ display: inline-block; margin: 0; padding: 0;}
+
+li{list-style: none; float: left;}
+
+#wrapper{overflow-x: hidden;}
+#wrapper > div{ width: 936px; margin: 0 auto;}
+
+header{}
+header figure{ float: left; margin-right: 20px;}
+header div{}
+header div h1{ padding-top: 20px;}
+header div p{}
+header div p b{color: #ed6400;}
+header title{
+    border-bottom: 5px #ed6400 solid;
+    border-top: 5px #ed6400 solid;
+    color: #1f2128;
+    clear: both;
+    display: block;
+    font-family: 'Abel', sans-serif;
+    font-weight: normal;
+    font-size: 38px;
+    margin: 40px 0 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#content{ display: inline-block;}
+#content > div{ float: left;}
+
+#fazerporvoce{ width: 490px;}
+#fazerporvoce ul{ width: 120%;}
+#fazerporvoce li{ margin-right: 28px; width: 100px;}
+#fazerporvoce li p{text-align: center;}
+
+#linguas{ margin-top: 40px; width: 490px;}
+#linguas h1{margin-bottom: 20px;}
+#linguas li{ margin-right:30px;  width: auto;}
+
+#ferramentas{
+    border-left: 1px #1f2128 solid;
+    margin-left: 38px;
+    padding-left: 40px;
+    width: 366px;
+}
+#ferramentas li{clear: both; margin-bottom: 10px;}
+#ferramentas li > div{
+    background: #00477d;
+    height: 10px;
+    float: left;
+    margin: 5px 0;
+    width: 230px;
+}
+#ferramentas li > div div{ background: #0086ed; height: 10px}
+#ferramentas li p{ float: left; width: 136px;}
+#ferramentas li:last-child p{ width: 100%;}
+
+#evolucao{margin-top: 40px; height: 285px; position: relative; width: 100%;}
+#evolucao h1{ margin-bottom: 30px;}
+#evolucao figure{ position: absolute; left: -12px; top: 72px; z-index: -10;}
+#evolucao figure img{}
+#evolucao ul{}
+#evolucao li{ position: absolute; width: 200px;}
+#evolucao img{float: left; margin:0 5px 20px 0;}
+#evolucao li h4{ color: #0086ed; font-size: 14px; margin: 0; line-height: 14px;}
+#evolucao li p{ color: #797979; font-size: 10px; line-height: 10px; margin: 2px 0 1px;}
+#evolucao li h6{ color: #1f2128; font-size: 12px; margin: 0;}
+
+#trabalhos{margin-top: 40px;}
+#trabalhos ul{ width: 120%;}
+#trabalhos li{ margin: 0 43px 30px 0px;}
+#trabalhos li a{ border: 1px #797979 solid; display: inline-block;}
+
+footer{
+    border-top: 1px #1f2128 solid;
+    margin-top: 40px;
+    padding-top: 20px
+}
+footer figure{
+    border-right: 1px #1f2128 solid;
+    float: left;
+    margin-right: 39px;
+    padding-right: 40px;
+    position: relative;
+    width: 390px;
+}
+footer figure div{ position: relative; float: right;}
+footer figure div img{ width: 100%;}
+footer figure p{ 
+    left: 0;
+    position: absolute;
+    top: 17px;
+    width: 100%;
+}
+footer > div{ float: left; width: 456px}
+footer > div ul{ width: 120%;}
+footer > div li{
+    float: left;
+    height: 35px;
+    margin: 0 50px 20px 0;
+    padding-left: 45px;    
+    width: 155px;
+}
+footer div li p{ font-size: 16px; padding-top: 5px;}
+footer #email{background: transparent url("../images/ico-email.png") no-repeat left center;}
+footer #celular{background: transparent url("../images/ico-mobile.png") no-repeat left center;}
+footer #facebook{background: transparent url("../images/ico-facebook.png") no-repeat left center;}
+footer #skype{background: transparent url("../images/ico-skype.png") no-repeat left center;}
+
+@media (max-width: 992px) {
+    #wrapper > div{ width: auto; margin: 0 20px;}
+    #evolucao figure{display: none;}
+    #content, #content > div, #fazerporvoce ul, #trabalhos ul, #ferramentas li, #ferramentas li > div, footer > div, footer ul{width: 100%;}
+    #linguas{margin:40px 0;}
+    #ferramentas{margin: 0; padding: 0; border: 0;}
+    #trabalhos li{margin: 0 15px 20px;}
+    #evolucao{height: auto;}
+    #evolucao li{ position: inherit; width: 230px;}
+    footer figure{margin: 0 0 30px; padding: 0; border: 0; width: 100%;}
+    footer figure div{ width: 70%;}
+    footer figure p{ width: 100%; top: 45px;}
+    footer figure div img{ height: 140px;}
+
+}
+
+@media (max-width: 768px) {
+    header figure{float: none; margin: 0 auto; text-align: center;}
+    footer figure div{ width: 100%; margin-top: 20px;}
+    footer figure p{ top: 35px;}
+}

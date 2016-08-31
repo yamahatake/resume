@@ -1,0 +1,75 @@
+[
+        {   
+            "ico":"images/ico-3DMAX.png",
+            "name":"3D Studio Max",
+            "time":"September 2008",
+            "place":"Senac, São Paulo",
+            "xposition":"1px",
+            "yposition":"71px"
+        },
+        {
+            "ico":"images/ico-afterEffects.png",
+            "name":"After Effects",
+            "time":"January 2009",
+            "place":"Impacta, São Paulo",
+            "xposition":"39px",
+            "yposition":"218px"
+        },
+        {   
+            "ico":"images/ico-tecnico.png",
+            "name":"IT Technician",
+            "time":"September 2009",
+            "place":"Senac, São Paulo",
+            "xposition":"189px",
+            "yposition":"71px"
+        },
+        {
+            "ico":"images/ico-ICS.png",
+            "name":"Certification ICS Digital Illustrator",
+            "time":"June 2009",
+            "place":"Impacta, São Paulo",
+            "xposition":"212px",
+            "yposition":"218px"
+        },
+        {
+            "ico":"images/ico-foster.png",
+            "name":"Agency Foster",
+            "time":"September 2008 - Junho de 2011",
+            "place":"São Paulo",
+            "xposition":"382px",
+            "yposition":"218px"
+        },
+        {   
+            "ico":"images/ico-UNIP.png",
+            "name":"Graduation in Computer Graphics",
+            "time":"August 2011",
+            "place":"UNIP, São Paulo",
+            "xposition":"397px",
+            "yposition":"71px"
+        },
+        {
+            "ico":"images/ico-domore.png",
+            "name":"DoMore! Solutions",
+            "time":"August 2011 - Março de 2014",
+            "place":"São Paulo",
+            "xposition":"606px",
+            "yposition":"218px"
+        },
+        {
+            "ico":"images/ico-ilac.png",
+            "name":"Ilac Vancouver",
+            "time":"April 2014 - September 2014",
+            "place":"Vancouver, Canadá",
+            "xposition":"591px",
+            "yposition":"71px"
+        },
+        {
+            "ico":"images/ico-modal.png",
+            "name":"Modal Bank",
+            "time":"April 2015 - Hoje",
+            "place":"São Paulo",
+            "xposition":"807px",
+            "yposition":"71px"
+        }
+        
+]
